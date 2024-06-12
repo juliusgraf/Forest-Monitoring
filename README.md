@@ -1,5 +1,6 @@
 # Forest Monitoring
 
+## Overview of the project
 We implemented the "Collapsed Gibbs sampling for Neyman-Scott processes with gamma weights" algorithm as formulated by Wang et al. (2023) in the context of spatial clustering with anisotropic Gaussian impulse responses. This involved deriving theoretical expressions for evidence, posterior, and prediction probability distributions, and engineering a novel evaluation metric, $\pi_\sigma$. Furthermore, we developed a standardized Python implementation for generating Neyman-Scott processes with anisotropic Gaussian impulse responses, which was previously only available in Julia. This repository contains the associated code and the slides from our final presentation.
 
 ## Acknowledgements
